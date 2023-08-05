@@ -17,6 +17,7 @@
 }
 
 header{
+    width: 100%;
     height: 85px;
     background-color: white;
     display: flex;
@@ -268,4 +269,67 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:376px){
+    body{
+        background-color: red;
+    }
+    .location{
+        display: none;
+    }
+    .search-bar input {
+    display: none;
+}
+
+.search-bar {
+    background-color: var(--search-back-color);
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-container {
+    
+    gap: 0px;
+}
+.cart-btn {
+    padding: 11px;
+    font-size: 12px;
+   
+}
+.fa-solid, .fas {
+    margin-left: 10px;
+}
+.main{
+   
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+  
+}
+.banner>img{
+    width: 100%;
+    height: 100%;
+}
+#uniq-padding {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.imgs img {
+    width: 332px;
+    padding-right: 0px;
+}
 }
