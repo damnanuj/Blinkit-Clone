@@ -278,9 +278,9 @@ footer{
 
 
 @media only screen and (max-width:376px){
-    body{
+    /* body{
         background-color: red;
-    }
+    } */
     .location{
         display: none;
     }
@@ -332,4 +332,15 @@ footer{
     width: 332px;
     padding-right: 0px;
 }
+.itemList-Container1{
+    overflow-x: scroll;
+}
+.item img {
+    width: 125px;
+    height: 164px;
+}
+
+
+
+
 }
